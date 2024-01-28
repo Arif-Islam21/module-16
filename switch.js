@@ -25,13 +25,43 @@
 //     console.log("Invalid Input");
 // }
 
-const lightCondition = true;
-switch (true) {
-  case lightCondition:
-    console.log("light is on");
-    break;
+// const lightCondition = true;
+// switch (true) {
+//   case lightCondition:
+//     console.log("light is on");
+//     break;
 
-  default:
-    console.log("light is off");
-    break;
+//   default:
+//     console.log("light is off");
+//     break;
+// }
+
+function calcGrading(score) {
+  let gradingScore;
+  switch (true) {
+    case score <= 100 && score >= 90:
+      gradingScore = "A";
+      break;
+    case score <= 89 && score >= 80:
+      gradingScore = "B";
+      break;
+    case score <= 79 && score >= 70:
+      gradingScore = "C";
+      break;
+    case score <= 69 && score >= 60:
+      gradingScore = "D";
+      break;
+    case score <= 59 && score >= 50:
+      gradingScore = "E";
+      break;
+    case score > 100 && score < 0:
+      gradingScore = "F";
+      break;
+    default:
+      gradingScore = "Invalid";
+      break;
+  }
+  return `You Got ${gradingScore} Grede`;
 }
+const first = calcGrading(60);
+console.log(first);
