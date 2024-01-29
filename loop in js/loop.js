@@ -3,3 +3,8 @@ console.log(nums);
 for (const num of nums) {
   console.log(num);
 }
+
+const fruits = ["orange", "Apple", "Lemons", "Guava", "PineApple"];
+for (const fruit of fruits) {
+  console.log(fruit);
+}
