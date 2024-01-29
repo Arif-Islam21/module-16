@@ -8,3 +8,5 @@ const fruits = ["orange", "Apple", "Lemons", "Guava", "PineApple"];
 for (const fruit of fruits) {
   console.log(fruit);
 }
+// THIS LOOP IS CALLED FOR OF LOOP
+// 
