@@ -10,4 +10,7 @@ const collage = {
     },
   },
 };
+delete collage.class;
 console.log(collage.unique.result.gpa);
+
+console.log(collage);
