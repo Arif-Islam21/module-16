@@ -13,3 +13,5 @@ const bottle = {
   contain: "Water",
 };
 console.log(bottle.color);
+// non primitive==> basic or lowest level or primary data type
+console.log(typeof bottle);
